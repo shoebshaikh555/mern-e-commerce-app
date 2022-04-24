@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { Search } from "@material-ui/icons";
+import { Search, ShoppingCartOutlined } from "@material-ui/icons";
+import { Badge } from "@material-ui/core";
+import { grey } from "@material-ui/core/colors";
 
 const Container = styled.div`
   height: 60px;
@@ -38,10 +40,15 @@ const Logo = styled.h1`
   text-align: center;
 `;
 const Right = styled.div`
+  display: flex;
   flex: 1;
+  align-items: center;
+  justify-content: flex-end;
 `;
 const MenuItem = styled.div`
   font-size: 14px;
+  cursor: pointer;
+  margin-left: 25px;
 `;
 export const Navbar = () => {
   return (
@@ -51,13 +58,21 @@ export const Navbar = () => {
           <Language>En</Language>
           <SearchContainer>
             <Input />
-            <Search />
+            <Search style={{ fontSize: 16, color: grey }} />
           </SearchContainer>
         </Left>
         <Center>
           <Logo>Amaze-on Shopping</Logo>
         </Center>
-        <Right>right</Right>
+        <Right>
+          <MenuItem>REGISTER</MenuItem>
+          <MenuItem>LOGIN</MenuItem>
+          <MenuItem>
+            <Badge color="primary" badgeContent={4}>
+              <ShoppingCartOutlined />
+            </Badge>
+          </MenuItem>
+        </Right>
       </Wrapper>
     </Container>
   );
