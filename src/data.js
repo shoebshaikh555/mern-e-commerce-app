@@ -5,14 +5,14 @@ import formals from "./assets/images/formals.jpg";
 import jackets from "./assets/images/jackets.jpg";
 import casuals from "./assets/images/casuals.jpg";
 
-import bag from "./assets/images/bag.jpg";
-import bag2 from "./assets/images/bag2.jpg";
-import shirt from "./assets/images/shirt.jpg";
-import shoes from "./assets/images/shoes.jpg";
-import sneaker from "./assets/images/sneaker.jpg";
-import sunGlasses from "./assets/images/sun-glasses.jpg";
-import tShirtCombo from "./assets/images/t-shirt-combo.jpg";
-import tShirt from "./assets/images/t-shirt.jpg";
+import bag from "./assets/images/bag.png";
+import bag2 from "./assets/images/bag2.png";
+import shirt from "./assets/images/shirt.png";
+import shoes from "./assets/images/shoes.png";
+import sneaker from "./assets/images/sneaker.png";
+import sunGlasses from "./assets/images/sun-glasses.png";
+import cap from "./assets/images/cap.png";
+import tShirt from "./assets/images/t-shirt.png";
 
 export const sliderItems = [
   {
@@ -59,34 +59,34 @@ export const categories = [
 export const popularProducts = [
   {
     id: 1,
-    img: bag,
-  },
-  {
-    id: 2,
-    img: bag2,
-  },
-  {
-    id: 3,
-    img: shirt,
-  },
-  {
-    id: 4,
-    img: shoes,
-  },
-  {
-    id: 5,
     img: sneaker,
   },
   {
-    id: 6,
+    id: 2,
+    img: shirt,
+  },
+  {
+    id: 3,
+    img: bag2,
+  },
+  {
+    id: 4,
     img: sunGlasses,
   },
   {
-    id: 7,
+    id: 5,
+    img: cap,
+  },
+  {
+    id: 6,
     img: tShirt,
   },
   {
+    id: 7,
+    img: shoes,
+  },
+  {
     id: 8,
-    img: tShirtCombo,
+    img: bag,
   },
 ];

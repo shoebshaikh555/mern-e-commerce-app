@@ -62,7 +62,7 @@ export const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>Amaze-on Shopping</Logo>
+          <Logo>Apparel 360</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
